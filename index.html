@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Decodificador de texto</title>
+</head>
+<body>
+    <header>
+        <a href="https://www.alura.com.br/" rel="noopener noreferrer" target="_blank">
+            <img class="logo" src="./assets/logo-tipo.png" alt="Logo marca Alura">
+        </a>
+    </header>
+    <main>    
+        <section class="encryptor">
+            <textarea class="encrypt" placeholder="Digite seu texto aqui"></textarea>
+                <div class="lowercase-msg">
+                    <img class="attention-img" src="assets/icon-atention.png" alt="Icone de atenção">
+                    <p class="warning-msg"> Apenas letras minúsculas e sem acento. </p>
+                </div>
+                
+                <div class="encrypt-decrypt-container"> 
+                    <button class="btn-encrypt" type="submit">Criptografar</button>
+                    <button class="btn-decrypt" type="submit">Descriptografar</button>
+                </div>
+        </section>
+
+        <section class="card">
+            <div class="card-container">
+                <img class="img-puppet" src="./assets/img-encryptor-puppet.png" alt="Imagem boneco encriptador ">
+                    <p class="text-one">Nenhuma mensagem encontrada</p>
+                    <p class="text-two">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <textarea class="evaluate" type="mensagem" readonly></textarea>
+                <button class="btn-copy" type="submit" >Copiar</button>
+        </section>
+    </main>    
+    <footer>
+          <p class="copyright"> &copy; copyrigth desenvolvido por DevFaBGirl 2024 </p>    
+
+    </footer>
+    <script src="js/encriptador.js"></script>
+</body>
+</html>
