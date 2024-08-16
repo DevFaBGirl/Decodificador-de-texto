@@ -16,6 +16,10 @@ Validação: Somente letras minúsculas e sem acentos são permitidas.
 - CSS;
 - JavaScript;
 
+# Layout:
+![image](https://github.com/user-attachments/assets/0e981cd6-b733-4117-b036-59364099c824)
+
+
 # Desenvolvedora:
 DevFaBGirl - Desenvolvido em 2024.
 
